@@ -1,0 +1,145 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+				display: block;}
+			body {
+				color: #666666;
+				background-color: #808080;
+				background-image: url("../static/dark-wood.jpg");
+				background-position: center;
+				font-family: serif, Georgia, Times;
+				line-height: 1.4em;
+				font-size: 100%;		/* The font size is changed to 100% for responsiveness */
+
+				width: 850px;
+				width: 85%; /* Width is set to 85% for responsive design*/
+		}
+			.wrapper {
+				width: 85%; /* The width is changed to percentage */
+				/*width: 97.916666%; */
+				/* 940/960 */
+				margin: 20px 150px 20px 150px;
+				margin: 2.0833333% 14% 2.0833333% 14%; /* Margins are changed to percentages too */
+				border: 12px solid #000000;
+				border: 1.27659574468085% solid #000000;
+				background-color: #ffffff;}
+			header {
+				
+
+				/*height: 17.021277%;*/
+				background-image: url("../static/yoChina_1.jpg");
+				background-repeat: no-repeat;
+				float:inherit;
+				height: 160px;
+				width: 100%;}
+			h1 {
+				background-image: url("../static/Mascot.png");
+				background-repeat: no-repeat;
+				float: right;
+				width: 940px;
+				width: 100%;
+				width: 14.916666%;
+				height: 90px;
+				/*height: 9.574468%;*/
+				margin: 0px;}
+			nav{
+				position: relative;
+			}
+			nav, footer {
+				clear: both;
+				color: #ffffff;
+				background-color: #aeaca8;
+				height: 30px;}
+			nav ul {
+				margin: 0px;
+				padding: 5px 0px 5px 20px;}
+			figure.img{
+				width: 50px;
+				/*width: 7.587253%;*/
+
+	    /*width:5.31914%;*/ /* you can use % */
+	    height: auto;}
+			nav li {
+				display: inline;
+				margin-right: 40px;}
+			nav li a {
+				color: #ffffff;}
+			nav li a:hover, nav li a.current {
+				color: #000000;}
+			section.courses {
+				float: left;
+				width: 659px;
+				width: 70.106383%; /* Changed to percentage for resonsive design*/
+				border-right: 1px solid #eeeeee;}
+			article {
+				clear: both;
+				overflow: auto;
+				width: 100%;}
+			hgroup {
+				margin-top: 40px;}
+			figure {
+				float: left;
+				width: 290px;
+				width: 44.0060%; /*Changed to percentage for responsive design*/
+				/*width: 30.851064%;*/
+				height: 220px;
+				padding: 5px;
+				padding: 0.758725%; /* Here 5px corresponds to 0.78%*/
+				margin: 20px;
+				margin: 3.0349%; /* 20px corresponds to 3.03%*/
+				border: 1px solid #eeeeee;
+				border: 0.151% solid #eeeeee;} /* The border width is changed to percentage too */
+			figcaption {
+				font-size: 90%; /* font size is changed to percent for responsiveness */
+				text-align: left;}
+			aside {
+				width: 230px;
+				width: 24.46808510%; /* 230 px corresponds to 24.4% */
+				float: left;
+				padding: 0px 0px 0px 20px;
+				padding: 0px 0px 0px 2.0833%;} /* 20px corresponds to 2.08% here */
+			aside section a {
+				display: block;
+				padding: 10px;
+				padding: 1.041667%; /*10 px corresponds to 1.04% */
+				border-bottom: 1px solid #eeeeee;
+				border-bottom: 0.1041667% solid #eeeeee;} /* 1px corresponds to 0.10% */
+			aside section a:hover {
+				color: #985d6a;
+				background-color: #efefef;}
+			a {
+				color: #de6581;
+				text-decoration: none;}
+			h1, h2, h3 {
+				font-weight: normal;}
+			h2 {
+				margin: 10px 0px 5px 0px;
+				margin: 1.5174% 0px 0.7587% 0px; /* The margins have been converted to corresponding percentages */
+				padding: 0px;}
+			h3 {
+				margin: 0px 0px 10px 0px;
+				margin: 0px 0px 1.5174% 0px; /* Percent for the margins */
+				color: #de6581;}
+			aside h2 {
+				padding: 30px 0px 10px 0px;
+				padding: 4.5523% 0px 1.5174% 0px; /* The padding is changed to percentage */
+				color: #de6581;}
+			footer {
+				font-size: 80%; /* font size is changed to percent for responsive design */
+				padding: 7px 0px 0px 20px;
+				padding: 0.7291% 0px 0px 2.0833%; /* Padding is changed to percentage */
+				}
+			.selected{
+				background-color: #ff3300;
+			}
+			.map-responsive{
+				overflow:hidden;
+				padding-bottom:56.25%; /* Padding is changed to percentage */
+				position:relative;
+				height:0;
+			}
+			.map-responsive iframe{
+				left:0;
+				top:0;
+				height:100%; /* Changed to percentages for responsiveness */
+				width:100%; /* Changed to percentages for responsiveness */
+				position:absolute;
+			}
